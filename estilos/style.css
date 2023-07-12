@@ -59,7 +59,7 @@ section#login {
 }
 
 #formulario{
-    margin: 10px;
+    margin: 11px;
 }
 
 input[type=submit]{
@@ -113,16 +113,6 @@ a:hover{
 
 }
 
-input[type=email] , input[type=password]{
-    background-color: #5BB9B5;
-    font-size: 1em;
-    width: calc(100% - 37px);
-    height: 100%;
-    border: 0px;
-    border-radius: 8px;
-    
-    
-}
 
 input[type=email]:hover{
     background-color: white;
@@ -130,10 +120,21 @@ input[type=email]:hover{
     background-color: white;
 }
 
+input[type=email], input[type=password] {
+    background-color: #94CFCD;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    transform: translateY(-8px);
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+}
 
-span{
+span#icon{
     color: white;
-    font-size: 100px;
-    padding-right: 8px;
-    
+    font-size: 1.8em;
+    width: 40px;
+    padding: 5px;
 } 
+
